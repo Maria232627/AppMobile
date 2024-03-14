@@ -3,11 +3,12 @@ import { colors } from "../../styles/globalstyle";
 
 export const styles = StyleSheet.create({
     ball:{
-        width: 30,
-        height: 30,
-        backgroundColor: colors.black,
+        width: 20,
+        height: 20,
+        backgroundColor: colors.green,
         borderRadius:15,
         borderWidth: 1,
-        borderColor: colors.gray
+        borderColor: colors.black
+        
     }
 })

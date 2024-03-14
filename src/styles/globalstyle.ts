@@ -8,7 +8,7 @@ export const colors = {
 }
 
 export const styleContainer = StyleSheet.create({
-    conainer: {
+    container: {
         flex: 1
     }
 })

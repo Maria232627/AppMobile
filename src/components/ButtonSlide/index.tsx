@@ -3,6 +3,6 @@ import { styles } from "./style";
 
 export function ButtonSlide(){
     return (
-        <TouchableOpacity style=(styles.ball) />
+        <TouchableOpacity style={styles.ball} />
     )
 }
