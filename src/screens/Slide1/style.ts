@@ -2,23 +2,17 @@ import { StyleSheet } from "react-native"
 import { colors } from "../../styles/globalstyle"
 
 export const styles = StyleSheet.create({
-    container:{
-        flex: 1,
-        justifyContent:'center',
-        alignItems:'center',
-        backgroundColor:'blue'
-    },
-    flex: {
+    main:{
         display:'flex',
         alignItems: 'center',
-        backgroundColor:'red'
+        justifyContent:'center',
+        flex: 1
     },
-    text: {
+    text:{
         fontSize: 40,
-        fontFamily: 'JacquesFrancoisShadow_400Regular'
+        fontFamily: 'JacquesFrancoisShadow_400Regular',
+        color: '#000'
     },
-
-
     botao: {
         justifyContent: 'center',
         alignItems:'flex-end',

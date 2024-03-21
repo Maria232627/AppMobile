@@ -9,12 +9,11 @@ export function Slide1({ setPageI }: IPagina) {
     const logo = require('../../assets/coelhologo.png')
     return (
         <ImageBackground source={slide} style={styleContainer.container}>
-            <View style={styleContainer.container}>
-                <View style={styles.flex}>
+                <View style={styles.main}>
                     <Image source={logo} ></Image>
                     <Text style={styles.text}>Coelho</Text>
                 </View>
-            </View>
+
             <View style={styles.botao}>
                 <View style={styles.buttonSpace}>
                     <ButtonSlide onPressI={() => setPageI(1)} cor={true} />
